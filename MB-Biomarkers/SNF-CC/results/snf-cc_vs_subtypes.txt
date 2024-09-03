@@ -1,0 +1,7 @@
+[1] "SNF-CC clusters vs RNA-derived molecular_subtypes"
+[1] 0.4486007
+[1] 0.3988965
+[1] "SNF-CC clusters vs dkfz_v11_methylation_subclass"
+[1] 0.3988965
+[1] "SNF-CC clusters vs dkfz_v12_methylation_subclass"
+[1] 0.4409992

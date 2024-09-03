@@ -1,0 +1,1 @@
+dat <- list(as.matrix(count_data), as.matrix(methyl_data), as.matrix(snv_data), as.matrix(cnv_data), as.matrix(splice_data))

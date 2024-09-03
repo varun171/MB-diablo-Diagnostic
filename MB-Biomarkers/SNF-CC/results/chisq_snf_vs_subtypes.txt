@@ -1,0 +1,55 @@
+[1] "SNF-CC clusters vs RNA-derived molecular_subtypes"
+            
+              1  2  3  4  5  6
+  MB, Group3  0 11  0 21  0  1
+  MB, Group4 25 15 27  0  2  0
+  MB, SHH     0  2  0  2 28  0
+  MB, WNT     0  0  0  0  1 17
+
+	Pearson's Chi-squared test
+
+data:  anno_file$molecular_subtype and anno_file$clusterID
+X-squared = 346.5, df = 15, p-value < 2.2e-16
+
+[1] "Snfcc clusters vs dkfz_v11_methylation_subclass"
+               
+                 1  2  3  4  5  6
+  CONTR_CEBM     0  0  1  0  3  0
+  ETMR           0  0  0  1  0  0
+  MB_G3          0 12  2 21  0  1
+  MB_G4         25 14 24  0  0  0
+  MB_SHH_CHL_AD  0  1  0  0 12  0
+  MB_SHH_INF     0  1  0  0 15  0
+  MB_WNT         0  0  0  0  1 17
+
+	Pearson's Chi-squared test
+
+data:  anno_file$dkfz_v11_methylation_subclass and anno_file$clusterID
+X-squared = 360.72, df = 30, p-value < 2.2e-16
+
+[1] "Snfcc clusters vs dkfz_v12_methylation_subclass"
+             
+               1  2  3  4  5  6
+  ARMS         0  0  0  1  0  0
+  CTRL_CBM     0  0  0  0  3  0
+  ETMR_Atyp    0  0  0  1  0  0
+  MB_G34_I     0  0  0  1  0  0
+  MB_G34_II    0  1  0  4  0  0
+  MB_G34_III   0  5  0 11  0  0
+  MB_G34_IV    0  2  0  4  0  1
+  MB_G34_V     1  4  5  1  0  0
+  MB_G34_VI    0  1  1  0  0  0
+  MB_G34_VII   0  9 20  0  0  0
+  MB_G34_VIII 24  4  0  0  0  0
+  MB_MYO       0  0  0  0  0  1
+  MB_SHH_1     0  1  0  0  8  0
+  MB_SHH_2     0  0  1  0  7  0
+  MB_SHH_3     0  0  0  0  6  0
+  MB_SHH_4     0  1  0  0  6  0
+  MB_WNT       0  0  0  0  1 16
+
+	Pearson's Chi-squared test
+
+data:  anno_file$dkfz_v12_methylation_subclass and anno_file$clusterID
+X-squared = 488.52, df = 80, p-value < 2.2e-16
+
