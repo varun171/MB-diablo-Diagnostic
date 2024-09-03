@@ -1,0 +1,21 @@
+[1] "IntNMF clusters vs 763 molecular_subtype"
+                       
+                          1   2   3   4
+  subtype: Group3_alpha   0  67   0   0
+  subtype: Group3_beta    3  34   0   0
+  subtype: Group3_gamma   0  39   1   0
+  subtype: Group4_alpha  92   6   0   0
+  subtype: Group4_beta  107   2   0   0
+  subtype: Group4_gamma  80  39   0   0
+  subtype: SHH_alpha      0   0   1  64
+  subtype: SHH_beta       0   0   0  35
+  subtype: SHH_delta      0   0   0  76
+  subtype: SHH_gamma      0   0   2  45
+  subtype: WNT_alpha      0   0  49   0
+  subtype: WNT_beta       0   0  21   0
+
+	Pearson's Chi-squared test
+
+data:  mm_clusters$subtype and mm_clusters$intnmf_cluster
+X-squared = 1986.8, df = 33, p-value < 2.2e-16
+
