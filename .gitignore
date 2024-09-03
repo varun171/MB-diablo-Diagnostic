@@ -50,3 +50,21 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# data folder
+data/
+archive/
+
+# preliminary test outputs
+results/Medulloblastoma/archive/
+
+
+# ignore input files (large)
+*_norm_counts.tsv
+*_cnv_data.tsv
+*_snv_data.tsv
+*_methyl_data.tsv
+
+# Mac DS Store
+.DS_Store
+.Rproj.user
